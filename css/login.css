@@ -1,0 +1,20 @@
+.bg-cover {
+    background-image: url("../images/gravity-1-1024x640.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.center-me{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+}
+.form-signin{
+    padding: 5px;
+    text-align: center;
+}
+input{
+    margin-bottom: 10px;
+}

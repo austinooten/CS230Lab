@@ -1,0 +1,14 @@
+.column{
+    float:left;
+    width: 22%;
+    margin-bottom: 18px;
+    padding:0 40px;
+}
+.bg-cover {
+    background-image: url("../images/homelander.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
