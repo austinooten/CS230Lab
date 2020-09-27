@@ -4,6 +4,7 @@ require "includes/header.php"
 <main>
 <link rel="stylesheet" href="css/login.css">
         <div class = "bg-cover">
+        
             <div class="container" style="padding-top: 20px;" >
                 <div id="slides" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -32,7 +33,7 @@ require "includes/header.php"
                     </a>
                   </div>
                 </div>
-        <div class = "h-40 center-me">
+        <div class = "h-20 center-me">
             <div class = "my-auto">
                 <form class ="form-signin" action="includes/login-helper.php" method="post" style = "background:white;">
                     <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
@@ -52,4 +53,5 @@ require "includes/header.php"
             </div>
         </div>
         </div>
+
 </main>

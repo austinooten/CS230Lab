@@ -1,6 +1,6 @@
 .bg-cover {
     background-image: url("../images/gravity-1-1024x640.jpg");
-    height: 100vh;
+    height: 100%;
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
