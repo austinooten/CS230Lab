@@ -18,7 +18,7 @@ mysqli_stmt_execute($stmt);
 $result = mysqli_stmt_get_result($stmt);
 while($row = mysqli_fetch_assoc($result)){
     echo '<div class = "card">
-    <a href = "0">
+    <a href = "review.php?id='.$row['pid'].'">
     <img src = "moviesandshows/'.$row["picpath"].'">
     <h3>'.$row['title'].'</h3>
     <p>'.$row['descript'].'</p>
