@@ -3,9 +3,9 @@ require "includes/header.php"
 ?>
 <main>
 <link rel="stylesheet" href="css/login.css">
-        <div class = "bg-cover">
+<div class = "bg-cover">
         
-            <div class="container" style="padding-top: 20px;" >
+        <div class="container" style="padding-top: 20px;" >
                 <div id="slides" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#slides" data-slide-to="0" class="active"></li>
